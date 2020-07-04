@@ -11,11 +11,12 @@ import { AppRoutingModule } from './app-routing.module';
 // ng根组件
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeadComponent } from './components/head/head.component';
 
 // ng 装饰器,接受一个元数据对象，告诉ng如何编译和启动应用
 @NgModule({
   declarations: [ /* 配置当前项目运行的组件*/
-    AppComponent, HomeComponent
+    AppComponent, HomeComponent, HeadComponent
   ],
   imports: [ /*配置当前模块运营依赖的其他模块*/
     BrowserModule,
